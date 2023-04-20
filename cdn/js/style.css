@@ -18,5 +18,12 @@ table.GeneratedTable td, table.GeneratedTable th {
 table.GeneratedTable thead {
   background-color: #d9d9d9;
 }
+
+.yayan-img {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  overflow: hidden;
+}
 </style>
 
