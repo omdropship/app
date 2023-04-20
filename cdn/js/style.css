@@ -1,29 +1,28 @@
 <!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
 <style>
-      @import url('https://codyhouse.co/demo/auto-hiding-navigation/css/reset.css');
-      @import url('https://codyhouse.co/demo/auto-hiding-navigation/css/style.css');
-      
-   
-
-table.GeneratedTable {
-  width: 100%;
-  background-color: #ffffff;
-  border-collapse: collapse;
-  border-color: #000000;
-  border-style: double;
-  color: #000000;
-}
-
-table.GeneratedTable td, table.GeneratedTable th {
-  border-color: #000000;
-  border-style: double;
-  padding: 3px;
-}
-
-table.GeneratedTable thead {
-  background-color: #d9d9d9;
-}
-
+      table {
+			border-collapse: collapse;
+			width: 100%;
+			max-width: 800px;
+			margin: 0 auto;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			font-size: 14px;
+		}
+		th, td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		th {
+			background-color: #f2f2f2;
+			font-weight: bold;
+			color: #333;
+			text-transform: uppercase;
+		}
+		tr:hover {
+			background-color: #f5f5f5;
+		}
 .yayan-img {
   width: 0px;
   height: 0px;
