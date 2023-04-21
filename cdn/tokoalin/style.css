@@ -1,0 +1,33 @@
+<!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+<style>
+      table {
+			border-collapse: collapse;
+			width: 100%;
+			max-width: 800px;
+			margin: 0 auto;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			font-size: 14px;
+		}
+		th, td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		th {
+			background-color: #f2f2f2;
+			font-weight: bold;
+			color: #333;
+			text-transform: uppercase;
+		}
+		tr:hover {
+			background-color: #f5f5f5;
+		}
+.yayan-img {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  overflow: hidden;
+}
+</style>
+
